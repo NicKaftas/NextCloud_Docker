@@ -14,8 +14,8 @@ services:
 # Προσπαθησα να προσθεσω εναν εξωτερικο δισκο μεσα στο docker ωστε να μεγαλωσω την χωρητικοτητα του Nextcloud  
 # αλλα δεν τα καταφερα επιτυχως. ΔΕν μπορουσα να κανω το docker  να δει ρον εξωτερικο σκληρο.
     environment:
-      - MYSQL_ROOT_PASSWORD=P@ssw0rd
-      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=<RourPassword>
+      - MYSQL_PASSWORD=<YourPassword>
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
 
