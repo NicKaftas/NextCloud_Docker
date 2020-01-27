@@ -11,6 +11,8 @@ services:
     restart: always
     volumes:
       - db:/var/lib/mysql
+# Προσπαθησα να προσθεσω εναν εξωτερικο δισκο σ=μεσα στο docker ωστε να μεγαλωσω την χωρητικοτητα του Nextcloud  
+# αλλα δεν τα καταφερα επιτυχως. ΔΕν μπορουσα να κανω το docker  να δει ρον εξωτερικο σκληρο.
     environment:
       - MYSQL_ROOT_PASSWORD=P@ssw0rd
       - MYSQL_PASSWORD=admin
