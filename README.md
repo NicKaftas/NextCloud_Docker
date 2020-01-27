@@ -13,6 +13,3 @@ To create the Docker container we nned to execute the follow steps:
 7) Open a broswer and search for the IP of your host machine with the corresponding port (in this case port:8080).
 
 In my case it's: IP:83.212.75.213:8080
-
-User: #######
-Password: ###########
